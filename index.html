@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <title>Loops | Zipcode Wilmington</title>
+</head>
+<body>
+    <header class="main-header group">
+        <div class="title"></div>
+        <div class="lesson-link"><img src="./images/logos/js_logo.png" alt="Javascript"/></div>
+        <div class="zip-link"><img src="./images/logos/zip_logo.jpg" alt="Zipcode Wilmington"/></div>
+    </header>
+
+    <h1>Loops Exercises</h1>
+
+    <section id="menu">
+      <ul>
+        <li><button id="start" type="button" class="btn btn-primary" onclick="starthand()">Start Hand</button></li>  
+        <li><button id="hit" type="button" class="btn btn-primary" onclick="hit()">Hit</button></li>
+        <li><button id="stay" disabled="true" type="button" class="btn btn-primary" onclick="stay()">Stay</button></li>
+        <li><button id="double" disabled="true" type="button" class="btn btn-primary" onclick="doubledown()">Double Down</button></li>
+
+      </ul>
+    </section>
+
+    <section id="main">
+        <div id="dealerhand">
+            <br/>
+            <img id="dcardimage1" src="" alt=""/>
+            <img id="dcardimage2" src="" alt=""/>
+            <img id="dcardimage3" src="./images/blank.png" alt="Dealer Card 3"/>
+            <img id="dcardimage4" src="./images/blank.png" alt="Dealer Card 4"/>
+            <img id="dcardimage5" src="./images/blank.png" alt="Dealer Card 5"/>
+            
+        </div>
+        <br/>
+    	<div id="display"></div>
+        <div id="playerhand">
+            <br/>
+            <img id="cardimage1" src="" alt=""/>
+            <img id="cardimage2" src="" alt=""/>
+            <img id="cardimage3" src="./images/blank.png" alt="Player Card 3"/>
+            <img id="cardimage4" src="./images/blank.png" alt="Player Card 4"/>
+            <img id="cardimage5" src="./images/blank.png" alt="Player Card 5"/>
+        </div>
+    </section>
+
+ 	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
